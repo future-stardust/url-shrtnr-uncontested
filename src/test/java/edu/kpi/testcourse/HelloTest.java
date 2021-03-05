@@ -8,6 +8,6 @@ class HelloTest {
 
   @Test
   void simpleAlwaysGreenTest() {
-    assertThat(1).isEqualTo(3); }
+    assertThat(3).isEqualTo(3); }
 
 }
