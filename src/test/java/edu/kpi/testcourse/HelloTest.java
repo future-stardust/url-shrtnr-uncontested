@@ -9,5 +9,5 @@ class HelloTest {
   @Test
   void simpleAlwaysGreenTest() {
 
-    assertThat(1).isEqualTo(9); }
+    assertThat(5).isEqualTo(5); }
 }
