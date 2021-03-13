@@ -1,5 +1,5 @@
 package edu.kpi.testcourse.bigtable;
-
+//In this class we tried to make users name and password add to the json fileList
 public class Users {
 
   private String name;
