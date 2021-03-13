@@ -14,11 +14,5 @@ import io.micronaut.security.rules.SecurityRule;
 @Controller
 public class ApiController {
 
-  record ExampleClass(String first, String second) {}
-
-  @Get(value = "/hello", produces = MediaType.APPLICATION_JSON)
-  public String hello() {
-    return Main.getGson().toJson(new ExampleClass("Hello", "world!"));
-  }
 
 }
