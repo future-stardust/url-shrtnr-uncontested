@@ -1,5 +1,7 @@
 package edu.kpi.testcourse.bigtable;
 
+//This root class is full of getters and setters
+
 import java.util.List;
 
 public class Root {
