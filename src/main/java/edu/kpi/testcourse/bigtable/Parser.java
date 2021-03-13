@@ -1,5 +1,7 @@
 package edu.kpi.testcourse.bigtable;
 
+//This imports were added by itself
+
 import com.nimbusds.jose.shaded.json.JSONObject;
 import com.nimbusds.jose.shaded.json.parser.JSONParser;
 import java.io.FileNotFoundException;
