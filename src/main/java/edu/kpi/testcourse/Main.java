@@ -1,6 +1,8 @@
 package edu.kpi.testcourse;
 
 import com.google.gson.Gson;
+import edu.kpi.testcourse.bigtable.Parser;
+import edu.kpi.testcourse.bigtable.Root;
 import io.micronaut.runtime.Micronaut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +19,14 @@ public class Main {
   public static void main(String[] args) {
     logger.info("Hello world!");
     Micronaut.run(Main.class, args);
+
+    Parser parser = new Parser();
+    Root root = null;
+
+
+
+    System.out.println(root.toString());
+
   }
 
   public static Gson getGson() {
